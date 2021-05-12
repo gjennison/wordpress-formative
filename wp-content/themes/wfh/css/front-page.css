@@ -1,0 +1,53 @@
+.by-collection-columns {
+  display: grid;
+  margin: 10%;
+  margin-top: 2%;
+}
+
+.by-collection-columns img {
+  mix-blend-mode: multiply;
+}
+
+.by-collection-columns .wp-block-column {
+  margin: 32px;
+}
+
+.by-collection-columns a {
+  text-decoration: none;
+  color: snow;
+}
+
+.by-collection-columns a:visited {
+  color: snow;
+}
+
+.hero {
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.summary {
+  margin: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.summary p {
+  font-size: 1.2em;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,15 @@
+ul{
+    color:red;
+    background-color: cadetblue;
+}
+
+
+.menu-wrapper > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li.current_page_item a {
+    color:white;
+ }

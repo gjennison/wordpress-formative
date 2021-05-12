@@ -1,0 +1,31 @@
+@media screen and (min-width: 600px){
+    .by-collection-columns, .products{
+        grid-template-columns: 1fr;
+    }
+    .filter.tablet{
+        display: none;
+    }
+    .filter.mobile{
+        display: flex;
+    }
+
+    .menu-wrapper{
+        display: none;
+    }
+}
+@media screen and (min-width: 900px){
+    .by-collection-columns, .products{
+        grid-template-columns: 1fr 1fr;
+    }
+    .filter.tablet{
+        display: flex;
+    }
+    .filter.mobile{
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px){
+    .by-collection-columns, .products{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
