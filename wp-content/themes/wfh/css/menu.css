@@ -1,7 +1,9 @@
 .filter li {
+  -webkit-transition: all 0.2s;
   transition: all 0.2s;
   padding: 8px;
   border-radius: 16px;
+  margin: 4px;
 }
 
 .filter li a {
@@ -18,12 +20,21 @@
   background-color: rgba(10, 100, 200, 0.75);
 }
 
-.filter li.current-cat {
+.filter li.current-cat, .filter li.current-page {
   background-color: rgba(10, 100, 200, 0.75);
   color: snow;
 }
 
-.filter li.current-cat a {
+.filter li.current-cat a, .filter li.current-page a {
+  color: snow;
+}
+
+.filter .current-page {
+  background-color: rgba(10, 100, 200, 0.75);
+  color: snow;
+}
+
+.filter .current-page a {
   color: snow;
 }
 
@@ -33,9 +44,13 @@
 
 .menu ul, .filter ul {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 60%;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: 0;
   margin-left: 20%;
   margin-right: 20%;
@@ -66,3 +81,4 @@
 .menu ul li.current_page_item, .filter ul li.current_page_item {
   border-bottom: 2px solid rgba(10, 100, 200, 0.75);
 }
+/*# sourceMappingURL=menu.css.map */

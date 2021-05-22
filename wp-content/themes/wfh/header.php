@@ -8,10 +8,6 @@
 <body <?php body_class()?>>
 
     <header class="site-header">
-        <img src="/wordpress/wp-content/themes/wfh/logo.jpg" alt="">
-        <nav class="menu-wrapper">
-            <?php wp_nav_menu(array("menu" => "MainMenu", "container" => false));?>
-        </nav>
         <?php locate_template('template-parts/filter.php', true); ?>
 
 

@@ -6,9 +6,6 @@
 <!-- start loop  -->
 <?php if(have_posts()) : ?> 
  
-
- <h2>Here's the latest news.</h2> 
- 
   
  
  <?php while(have_posts()): the_post(); ?> 

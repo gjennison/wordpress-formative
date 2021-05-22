@@ -1,13 +1,15 @@
-.by-collection-columns{
+.by-collection-columns .wp-block-group__inner-container{
     display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
     margin: 10%;
     margin-top: 2%;
-    img{
-        mix-blend-mode: multiply;
-    }
 
-    .wp-block-column{
-        margin: 32px;
+    .wp-block-cover{
+        transition: opacity 0.2s;
+        &:hover{
+            opacity: 0.9;
+        }
     }
 
     a{
@@ -33,6 +35,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 0px;
         // color: rgb(10,100,200);
         color: white;
         font-size: 2em;

@@ -4,7 +4,6 @@
 
 <!-- start loop  -->
 <?php if(have_posts()) : ?> 
-<h2>All Products</h2> 
 
 <?php while(have_posts()): the_post(); ?> 
 

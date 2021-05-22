@@ -1,9 +1,13 @@
 .filter {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 25%;
   margin-right: 25%;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .filter.mobile {
@@ -11,11 +15,17 @@
   z-index: 100;
   top: 34px;
   right: 0px;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgba(200, 255, 255, 0.4);
   margin: 0;
   padding: 20px;
+  border-radius: 12px;
 }
 
 .filter.mobile img {
@@ -29,5 +39,9 @@
 }
 
 .links {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+/*# sourceMappingURL=filter.css.map */

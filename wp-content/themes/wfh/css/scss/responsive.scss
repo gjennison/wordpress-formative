@@ -1,5 +1,5 @@
 @media screen and (min-width: 600px){
-    .by-collection-columns, .products{
+    .by-collection-columns .wp-block-group__inner-container, .products{
         grid-template-columns: 1fr;
     }
     .filter.tablet{
@@ -14,18 +14,20 @@
     }
 }
 @media screen and (min-width: 900px){
-    .by-collection-columns, .products{
+    .by-collection-columns .wp-block-group__inner-container, .products{
         grid-template-columns: 1fr 1fr;
     }
     .filter.tablet{
         display: flex;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
     .filter.mobile{
         display: none;
     }
 }
 @media screen and (min-width: 1200px){
-    .by-collection-columns, .products{
+    .by-collection-columns .wp-block-group__inner-container, .products{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
