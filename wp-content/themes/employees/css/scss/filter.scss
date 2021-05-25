@@ -1,0 +1,33 @@
+.filter{
+    list-style: none;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-evenly;
+}
+
+.filter.mobile{
+    position: fixed;
+    z-index: 100;
+    top: 34px;
+    right: 0px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(200,255,255,0.4);
+    margin: 0;
+    padding: 20px;
+    img{
+        max-width: 50px;
+        max-height: 50px;
+        margin: 40px;
+
+    }
+
+    li{
+        margin-bottom: 12px;
+    }
+}
+
+.links{
+    flex-direction: column;
+}

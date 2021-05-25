@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,500&display=swap");
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+.term-collection-wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.term-collection{
+  /* max-width: 600px; */
+}
+
+.employee{
+  background-color: rgba(0,0,0,0.4);
+  max-width: 500px;
+  margin: auto;
+  padding: 48px;
+}

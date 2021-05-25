@@ -1,0 +1,52 @@
+.by-collection-columns{
+    display: grid;
+    margin: 10%;
+    margin-top: 2%;
+    img{
+        mix-blend-mode: multiply;
+    }
+
+    .wp-block-column{
+        margin: 32px;
+    }
+
+    a{
+        text-decoration: none;
+        color: snow;
+        &:visited{
+            color: snow;
+        }
+    }
+}
+
+.hero{
+    width: 100%;
+    height: 500px;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+    h2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // color: rgb(10,100,200);
+        color: white;
+        font-size: 2em;
+        background-color: rgba(255,255,255,0.2)
+    }
+}
+
+.summary{
+    margin: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    p{
+        font-size: 1.2em;
+        margin-bottom: 50px;
+    }
+}

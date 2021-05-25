@@ -1,0 +1,68 @@
+.filter li {
+  transition: all 0.2s;
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.filter li a {
+  color: #323232;
+  text-decoration: none;
+  padding: 4px;
+}
+
+.filter li a:visited {
+  color: #323232;
+}
+
+.filter li:hover {
+  background-color: rgba(10, 100, 200, 0.75);
+}
+
+.filter li.current-cat {
+  background-color: rgba(10, 100, 200, 0.75);
+  color: snow;
+}
+
+.filter li.current-cat a {
+  color: snow;
+}
+
+.menu-wrapper, .menu, .menu ul li {
+  width: 100%;
+}
+
+.menu ul, .filter ul {
+  list-style: none;
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.menu ul li, .filter ul li {
+  text-align: center;
+  padding: 8px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.menu ul li:hover, .filter ul li:hover {
+  border-bottom: 2px solid rgba(10, 100, 200, 0.75);
+  cursor: pointer;
+}
+
+.menu ul li a, .filter ul li a {
+  text-decoration: none;
+}
+
+.menu ul li a:visited, .filter ul li a:visited {
+  color: #323232;
+}
+
+.menu ul li.current_page_item, .filter ul li.current_page_item {
+  border-bottom: 2px solid rgba(10, 100, 200, 0.75);
+}
